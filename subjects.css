@@ -1,0 +1,35 @@
+.course {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+}
+
+.subject {
+  padding: 0.5rem 1rem 1rem 1rem;
+  background-color: bisque;
+  border-radius: 1rem;
+}
+
+li {
+    width: 20rem; /* Set the width to your desired value */
+    word-wrap: break-word; /* Allow the text to wrap */
+    margin-bottom: 5px; /* Add some bottom margin to separate list items */
+    padding-left: 20px; /* Add left padding to offset the list style */
+    position: relative; /* Set position relative to contain pseudo-element */
+}
+
+li::before {
+    content: "•"; /* Add list bullet using pseudo-element */
+    position: absolute; /* Set position absolute to position the bullet */
+    left: 0; /* Position the bullet to the left of the list item */
+}
+
+.wrapped-text {
+    margin-left: 20px;
+}
+
+.sub{
+    font-weight: bold;
+}

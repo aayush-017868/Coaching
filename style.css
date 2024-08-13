@@ -1,0 +1,78 @@
+.container{
+    display: grid;
+    grid-template: auto auto auto auto auto auto / auto auto auto auto auto auto auto auto;
+}
+
+p{
+     font-family: "Poppins", Arial, sans-serif;
+     padding: 0;
+     margin: 0;
+}
+
+.name{
+   font-size: x-large;
+   font-weight: 700;
+   margin-bottom: 1rem;
+   padding: 0rem 3rem 0.5rem 3rem;
+}
+
+
+.navBar{
+    display: flex;
+    border-radius: 0.5rem;
+    grid-area: 1/1/2/6;
+    gap: 20px;
+    justify-items: left;
+    background-color: rgb(233, 233, 233);
+    padding-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.items{
+    display: flex;
+    gap: 3rem;
+    padding-top: 0.5rem;
+    padding-left: 30rem;
+    font-size: medium;
+    font-weight: 600;
+    
+}
+
+.second{
+    grid-area: 2/1/4/7;
+    display: flex;
+}
+.heading{
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.desc{
+    background-color: rgb(233, 233, 233);
+    border-radius: 1rem;
+    justify-items: left;
+    padding: 2rem;
+    margin: 1rem;
+    font-weight: 500;
+    width: 33%;
+}
+
+.course{
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: rgb(233, 233, 233);
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.sub{
+    padding-bottom: .2rem;
+    padding-top: .2rem;
+    text-align: center;
+    border-radius: .3rem;
+}
+
+.Tutors{
+    
+}
